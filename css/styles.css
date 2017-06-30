@@ -1,0 +1,99 @@
+h2:not(:first-child) {
+    margin-top: 72px;
+}
+
+dt {
+    padding-bottom: 8px;
+}
+
+dd {
+    padding: 4px 0;
+}
+
+.content-index {
+    position: static !important;
+    padding: 16px 32px;
+    background-color: #ebf4ff;
+}
+
+@media screen and (min-width: 768px) {
+    .content-index {
+        width: 294px;
+    }
+
+    .affix {
+        position: fixed !important;
+        top: 24px;
+    }
+
+    .affix-bottom {
+        position: fixed !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .content-index {
+        width: 360px;
+    }
+
+.link-list {
+    padding-top: 16px;
+}
+
+.about-training {
+    margin-top: 72px;
+
+    text-align: center;
+}
+
+.about-training h2 {
+    margin-bottom: 48px;
+}
+
+.equal-height {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+
+
+.video-wrapper {
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.logo-sponsor {
+    display: block;
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-sponsor {
+        display: table-cell;
+
+        height: 120px;
+        margin-bottom: 0;
+
+        vertical-align: middle;
+    }
+}
+
+.logo-sponsor > img {
+    width: 100%;
+    max-width: 240px;
+}
